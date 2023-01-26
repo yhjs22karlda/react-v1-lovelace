@@ -4,11 +4,25 @@
 
 body {
     background-color: black;
+    font: 16px/1.5 Verdana sans-serif;
     color: white;
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto 2rem;
 }
 
 h1 {
     text-align: center;
+}
+
+.images {
+    width: min(100%, 400px);
+    display: block;
+    margin: 0 auto;
+}
+
+.about blockquote {
+    color: gray;
+    border-left: 3px solid gray;
+    margin: 0;
+    padding-left: 1rem;
 }

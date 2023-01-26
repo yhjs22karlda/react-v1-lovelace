@@ -4,7 +4,7 @@ import About from './About'
 function App() {
   const name = "Ada Lovelace"
   return (
-    <div className="app">
+    <div>
       <h1>{name}</h1>
       <Images />
       <About />
